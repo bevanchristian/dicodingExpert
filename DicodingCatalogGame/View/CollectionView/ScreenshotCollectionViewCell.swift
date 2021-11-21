@@ -4,7 +4,7 @@
 //
 //  Created by bevan christian on 09/08/21.
 //
-
+// swiftlint:disable line_length
 import UIKit
 import AlamofireImage
 

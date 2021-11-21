@@ -4,7 +4,7 @@
 //
 //  Created by bevan christian on 31/10/21.
 //
-
+// swiftlint:disable line_length
 import Foundation
 
 class DetailPageInteractor: DetailPageInteractorProtocol {

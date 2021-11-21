@@ -4,7 +4,7 @@
 //
 //  Created by bevan christian on 13/11/21.
 //
-
+// swiftlint:disable line_length
 import Foundation
 
 final class ResultModelMapper {
