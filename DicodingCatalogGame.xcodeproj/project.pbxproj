@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5024F496274A5B6C007B1B97 /* .swiflint.yml in Resources */ = {isa = PBXBuildFile; fileRef = 5024F495274A5B6C007B1B97 /* .swiflint.yml */; };
 		503B1F25272E2D5F00A5D37F /* DependencyInjection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 503B1F24272E2D5F00A5D37F /* DependencyInjection.swift */; };
 		503B1F28272E2E9500A5D37F /* HomepageInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 503B1F27272E2E9500A5D37F /* HomepageInteractor.swift */; };
 		503B1F2A272E32BD00A5D37F /* DetailFavInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 503B1F29272E32BD00A5D37F /* DetailFavInteractor.swift */; };
@@ -50,7 +51,6 @@
 		50D5DAA426BFFE0500499E56 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 50D5DAA326BFFE0500499E56 /* Assets.xcassets */; };
 		50D5DAA726BFFE0500499E56 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50D5DAA526BFFE0500499E56 /* LaunchScreen.storyboard */; };
 		50D5DAB226BFFF2B00499E56 /* GameModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50D5DAB126BFFF2B00499E56 /* GameModel.swift */; };
-		50D5DAB526BFFFBD00499E56 /* .swiftlint.yml in Resources */ = {isa = PBXBuildFile; fileRef = 50D5DAB426BFFFBD00499E56 /* .swiftlint.yml */; };
 		50D5DAB726C0000000499E56 /* GameApiFetch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50D5DAB626C0000000499E56 /* GameApiFetch.swift */; };
 		50D5DAB926C0001700499E56 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50D5DAB826C0001700499E56 /* Constant.swift */; };
 		50D5DAC126C005CA00499E56 /* DicodingCatalogGameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50D5DAC026C005CA00499E56 /* DicodingCatalogGameTests.swift */; };
@@ -90,6 +90,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5024F495274A5B6C007B1B97 /* .swiflint.yml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; path = .swiflint.yml; sourceTree = "<group>"; };
 		503B1F24272E2D5F00A5D37F /* DependencyInjection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DependencyInjection.swift; sourceTree = "<group>"; };
 		503B1F27272E2E9500A5D37F /* HomepageInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomepageInteractor.swift; sourceTree = "<group>"; };
 		503B1F29272E32BD00A5D37F /* DetailFavInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailFavInteractor.swift; sourceTree = "<group>"; };
@@ -135,7 +136,6 @@
 		50D5DAA626BFFE0500499E56 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		50D5DAA826BFFE0500499E56 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		50D5DAB126BFFF2B00499E56 /* GameModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameModel.swift; sourceTree = "<group>"; };
-		50D5DAB426BFFFBD00499E56 /* .swiftlint.yml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; path = .swiftlint.yml; sourceTree = "<group>"; };
 		50D5DAB626C0000000499E56 /* GameApiFetch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameApiFetch.swift; sourceTree = "<group>"; };
 		50D5DAB826C0001700499E56 /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
 		50D5DABE26C005CA00499E56 /* DicodingCatalogGameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DicodingCatalogGameTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -326,7 +326,7 @@
 		50D5DA8E26BFFE0300499E56 = {
 			isa = PBXGroup;
 			children = (
-				50D5DAB426BFFFBD00499E56 /* .swiftlint.yml */,
+				5024F495274A5B6C007B1B97 /* .swiflint.yml */,
 				50D5DA9926BFFE0300499E56 /* DicodingCatalogGame */,
 				50D5DABF26C005CA00499E56 /* DicodingCatalogGameTests */,
 				50D5DA9826BFFE0300499E56 /* Products */,
@@ -557,10 +557,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				50D5DAB526BFFFBD00499E56 /* .swiftlint.yml in Resources */,
 				50D5DAA726BFFE0500499E56 /* LaunchScreen.storyboard in Resources */,
 				50D5DAA426BFFE0500499E56 /* Assets.xcassets in Resources */,
 				50D5DAA226BFFE0300499E56 /* Main.storyboard in Resources */,
+				5024F496274A5B6C007B1B97 /* .swiflint.yml in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
