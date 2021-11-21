@@ -1,5 +1,0 @@
-language: swift
-osx_image: xcode13.1
-xcode_project: DicodingCatalogGame.xcodeproj
-xcode_scheme: DicodingCatalogGame
-xcode_destination: platform=iOS Simulator,OS=15.0,name=iPhone 11 Pro
