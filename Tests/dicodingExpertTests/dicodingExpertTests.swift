@@ -1,6 +1,6 @@
 import XCTest
 @testable import dicodingExpert
-
+// swiftlint:disable type_name
 final class dicodingExpertTests: XCTestCase {
     func testExample() throws {
         // This is an example of a functional test case.
