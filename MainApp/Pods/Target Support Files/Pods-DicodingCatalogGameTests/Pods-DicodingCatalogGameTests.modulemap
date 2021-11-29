@@ -1,0 +1,6 @@
+framework module Pods_DicodingCatalogGameTests {
+  umbrella header "Pods-DicodingCatalogGameTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
