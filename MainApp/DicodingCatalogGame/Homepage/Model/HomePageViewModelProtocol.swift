@@ -8,7 +8,7 @@
 import Foundation
 import Combine
 import UIKit
-import Core
+
 
 protocol HomePageViewModelProtocol {
     func getGameList()

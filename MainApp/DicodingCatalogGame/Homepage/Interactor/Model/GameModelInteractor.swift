@@ -7,7 +7,7 @@
 
 import Foundation
 
-
+// homepage
 public struct GameModelInteractor: Codable {
     // var karena belum di declare
     var count: Int?

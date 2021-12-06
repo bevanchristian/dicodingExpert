@@ -7,7 +7,7 @@
 import UIKit
 import Swinject
 import SwinjectStoryboard
-import Core
+
 
 class SceneDelegate: UIResponder, UIWindowSceneDelegate {
     

@@ -14,7 +14,3 @@ target 'DicodingCatalogGame' do
   end
 
 end
-
-target 'Core' do
-project '../Core/Core'
-end
